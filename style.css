@@ -105,27 +105,13 @@ body {
 
 .tournament-card {
     width: 80%;
-    max-width: 1000px;
-
-    height: 450px;
-
+    max-width: 980px;
     margin: auto;
-
-    background-color: #111;
-
-    color: white;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.tournament-card h3 {
-    font-size: 32px;
+.tournament-card img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.tournament-card p {
-    margin-top: 20px;
-    font-size: 18px;
-}
