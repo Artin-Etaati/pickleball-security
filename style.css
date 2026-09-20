@@ -57,7 +57,16 @@ body {
 
 .hero {
     height: 580px;
-    background-color: #333;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
 
     display: flex;
     justify-content: center;
