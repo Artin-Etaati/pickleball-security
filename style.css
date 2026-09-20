@@ -1,0 +1,122 @@
+/* Reset browser default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    height: 280px;
+    background-color: #0f0f0f;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 30px 40px;
+}
+
+.logo {
+    color: white;
+}
+
+.logo h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.logo p {
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-top: 5px;
+}
+
+.header nav {
+    margin-right: 350px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    height: 580px;
+    background-color: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 8px;
+}
+
+
+/* =========================
+   UPCOMING TOURNAMENTS
+========================= */
+
+.tournaments {
+    background-color: rgb(101, 60, 144);
+
+    padding: 70px 20px 110px;
+
+    text-align: center;
+}
+
+.tournaments h2 {
+    color: white;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+
+/* Temporary tournament box */
+
+.tournament-card {
+    width: 80%;
+    max-width: 1000px;
+
+    height: 450px;
+
+    margin: auto;
+
+    background-color: #111;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournament-card h3 {
+    font-size: 32px;
+}
+
+.tournament-card p {
+    margin-top: 20px;
+    font-size: 18px;
+}
