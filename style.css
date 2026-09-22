@@ -228,3 +228,42 @@ body {
     font-size: 17px;
 }
 
+/* Mobile phone layout */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .reveal,
+    .explanation,
+    .real-attack,
+    .infographic-section {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .reveal-box,
+    .steps {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .reveal-box h1 {
+        font-size: 30px;
+    }
+
+    .explanation h2,
+    .real-attack h2,
+    .infographic-section h2 {
+        font-size: 28px;
+    }
+
+    .infographic-section img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
